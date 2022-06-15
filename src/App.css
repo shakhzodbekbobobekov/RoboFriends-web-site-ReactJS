@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SEGA';
+    src: url('./fonts/SEGA.TTF') format('truetype') ;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.title-robo {
+    font-family: 'SEGA';
+    color: rgb(8, 8, 8);
+}
