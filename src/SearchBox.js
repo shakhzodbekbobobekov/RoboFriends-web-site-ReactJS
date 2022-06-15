@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchBox({ searchfieled, onSearchChange }) {
+function SearchBox({ onSearchChange }) {
   return (
     <div className="pa2">
       <input
