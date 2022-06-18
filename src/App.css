@@ -7,6 +7,11 @@
     border-radius: 10px;
 }
 
+.pa2 input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 .title-robo {
     font-family: 'SEGA';
     color: rgb(8, 8, 8);
