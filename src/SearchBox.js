@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 function SearchBox({ onSearchChange }) {
+  const usernameRef = useRef(null);
+
+  useEffect(() => {
+    usernameRef.current.focus();
+  }, []);
+
   return (
     <div className="pa2">
       <input
@@ -8,6 +14,7 @@ function SearchBox({ onSearchChange }) {
         type="search"
         placeholder="search robot..."
         onChange={onSearchChange}
+        ref={usernameRef}
       />
     </div>
   );
